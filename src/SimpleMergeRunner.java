@@ -23,7 +23,7 @@ public class SimpleMergeRunner {
         int[] arr5 = {1,2,3,9,10};
         int[] arr6 = {4,5,6,7,8};
         System.out.println("Merging: {1,2,3,9,10} and {4,5,6,7,8}");
-        resultArr = SimpleMerge.simpleMerge(arr3,arr4);
+        resultArr = SimpleMerge.simpleMerge(arr5,arr6);
         for (int i:resultArr)
             System.out.print(i+" ");
         System.out.println();

@@ -27,5 +27,9 @@ public class SimpleMergeRunner {
         for (int i:resultArr)
             System.out.print(i+" ");
         System.out.println();
+
+        int[] arr7 = {22, 11, 32, 6, 2, 25, 28, 39, 41, 17};
+        System.out.println("Merging: {22, 11, 32, 6, 2, 25, 28, 39, 41, 17}");
+        MergeSort.mergeSort(arr7);
     }
 }

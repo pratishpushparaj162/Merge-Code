@@ -6,4 +6,13 @@ public class Utilities {
         arr[i + 1] = arr[i];
         arr[i] = hold;
     }
+
+    public static int[] print(int[] array)
+    {
+        for (int i = 0; i < array.length; i++)
+        {
+            System.out.print(array[i] + " ");
+        }
+        return array;
+    }
 }

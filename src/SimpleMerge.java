@@ -32,7 +32,7 @@ public class SimpleMerge {
             while (loop) {
                 //Swaps index values if the one on the left is greater than the right value
                 if (array[i] > array[i + 1]) {
-                    Utilities.swap(array, i);
+                    Utility.swap(array, i);
                     swaps = true;
                 }
                 i++;

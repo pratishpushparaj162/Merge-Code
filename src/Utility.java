@@ -1,4 +1,4 @@
-public class Utilities {
+public class Utility {
 
     public static void swap(int[] arr, int i) {
         int hold;

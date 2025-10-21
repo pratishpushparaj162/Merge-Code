@@ -1,3 +1,4 @@
+
 public class MergeSort {
     public static void mergeSort(int[] arr)
     {
@@ -45,12 +46,14 @@ public class MergeSort {
          k++;
      }
 
+        
      while(j<= right) {
      temp[k] = arr[j];
      j++;
      k++;
      }
 
+        
      for(k= left; k<= right; k++)
      {
          arr[k] = temp[k];
